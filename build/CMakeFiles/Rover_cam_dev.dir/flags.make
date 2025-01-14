@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/anibal/Rover_cam_dev/include -isystem /usr/local/include/opencv4
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

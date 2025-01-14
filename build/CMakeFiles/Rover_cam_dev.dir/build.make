@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/anibal/Rover_cam_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anibal/Rover_cam_dev
+CMAKE_BINARY_DIR = /home/anibal/Rover_cam_dev/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Rover_cam_dev.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/Rover_cam_dev.dir/progress.make
 include CMakeFiles/Rover_cam_dev.dir/flags.make
 
 CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o: CMakeFiles/Rover_cam_dev.dir/flags.make
-CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o: CMakeFiles/Rover_cam_dev.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o -MF CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o.d -o CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o -c /home/anibal/Rover_cam_dev/src/main.cpp
 
 CMakeFiles/Rover_cam_dev.dir/src/main.cpp.i: cmake_force
@@ -84,9 +84,9 @@ CMakeFiles/Rover_cam_dev.dir/src/main.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anibal/Rover_cam_dev/src/main.cpp -o CMakeFiles/Rover_cam_dev.dir/src/main.cpp.s
 
 CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o: CMakeFiles/Rover_cam_dev.dir/flags.make
-CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o: src/ScreenshotIPCam.cpp
+CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o: ../src/ScreenshotIPCam.cpp
 CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o: CMakeFiles/Rover_cam_dev.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o -MF CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o.d -o CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o -c /home/anibal/Rover_cam_dev/src/ScreenshotIPCam.cpp
 
 CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.i: cmake_force
@@ -98,9 +98,9 @@ CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anibal/Rover_cam_dev/src/ScreenshotIPCam.cpp -o CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.s
 
 CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o: CMakeFiles/Rover_cam_dev.dir/flags.make
-CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o: src/AfficherImage.cpp
+CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o: ../src/AfficherImage.cpp
 CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o: CMakeFiles/Rover_cam_dev.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anibal/Rover_cam_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o -MF CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o.d -o CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o -c /home/anibal/Rover_cam_dev/src/AfficherImage.cpp
 
 CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.i: cmake_force
@@ -140,7 +140,7 @@ Rover_cam_dev: /usr/local/lib/libopencv_flann.so.4.10.0
 Rover_cam_dev: /usr/local/lib/libopencv_imgproc.so.4.10.0
 Rover_cam_dev: /usr/local/lib/libopencv_core.so.4.10.0
 Rover_cam_dev: CMakeFiles/Rover_cam_dev.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anibal/Rover_cam_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Rover_cam_dev"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anibal/Rover_cam_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Rover_cam_dev"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rover_cam_dev.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,6 +152,6 @@ CMakeFiles/Rover_cam_dev.dir/clean:
 .PHONY : CMakeFiles/Rover_cam_dev.dir/clean
 
 CMakeFiles/Rover_cam_dev.dir/depend:
-	cd /home/anibal/Rover_cam_dev && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev/CMakeFiles/Rover_cam_dev.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anibal/Rover_cam_dev/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev /home/anibal/Rover_cam_dev/build /home/anibal/Rover_cam_dev/build /home/anibal/Rover_cam_dev/build/CMakeFiles/Rover_cam_dev.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Rover_cam_dev.dir/depend
 

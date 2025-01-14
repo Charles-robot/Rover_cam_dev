@@ -1,0 +1,3 @@
+/home/anibal/Rover_cam_dev/build/CMakeFiles/Rover_cam_dev.dir
+/home/anibal/Rover_cam_dev/build/CMakeFiles/edit_cache.dir
+/home/anibal/Rover_cam_dev/build/CMakeFiles/rebuild_cache.dir

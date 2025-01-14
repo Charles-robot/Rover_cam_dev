@@ -1,30 +1,28 @@
-#include <stdio.h>
-#include "opencv2/highgui.hpp"
-#include "opencv2/imgcodecs.hpp"  // Make sure to include the imgcodecs module
+#include "mesFonctions.h"
 
-int main(int argc, char** argv )
-{
-    if ( argc != 2 )
+int main(int argc, char** argv) {
+int test = 0;
+   
+    while(1)
     {
-        printf("usage: DisplayImage.out <image_path>\n");
-        return -1;
-    }
- 
-    printf("Image path: %s\n", argv[1]);
+        
+        std::cout << "Enter option 1 or 2" << std::endl;
+        std::cin >> test;
 
-    cv::Mat image;
-    image = cv::imread( argv[1], cv::IMREAD_COLOR );
- 
-    if ( image.empty() )
-    {
-        printf("No image data\n");
-        return -1;
-    }
+        switch(test) 
+        {
+            case 1:
+                afficherImage(argc, argv);
+                break;
+            case 2:
+                screenShotIPCam();
+                break;
 
-    cv::namedWindow("Deeznuts", cv::WINDOW_AUTOSIZE );
-    imshow("Deeznuts", image);
- 
-    cv::waitKey(0);
- 
+            default:
+                std::cout << "Enter either 1 or 2";
+                break;
+        }
+    }
     return 0;
 }
+

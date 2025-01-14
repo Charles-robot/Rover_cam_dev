@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/anibal/Rover_cam_dev/build",
+  "command": "/usr/bin/c++  -I/home/anibal/Rover_cam_dev/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Rover_cam_dev.dir/src/main.cpp.o -c /home/anibal/Rover_cam_dev/src/main.cpp",
+  "file": "/home/anibal/Rover_cam_dev/src/main.cpp"
+},
+{
+  "directory": "/home/anibal/Rover_cam_dev/build",
+  "command": "/usr/bin/c++  -I/home/anibal/Rover_cam_dev/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Rover_cam_dev.dir/src/ScreenshotIPCam.cpp.o -c /home/anibal/Rover_cam_dev/src/ScreenshotIPCam.cpp",
+  "file": "/home/anibal/Rover_cam_dev/src/ScreenshotIPCam.cpp"
+},
+{
+  "directory": "/home/anibal/Rover_cam_dev/build",
+  "command": "/usr/bin/c++  -I/home/anibal/Rover_cam_dev/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Rover_cam_dev.dir/src/AfficherImage.cpp.o -c /home/anibal/Rover_cam_dev/src/AfficherImage.cpp",
+  "file": "/home/anibal/Rover_cam_dev/src/AfficherImage.cpp"
+}
+]
