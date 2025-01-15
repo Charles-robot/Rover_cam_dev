@@ -19,7 +19,7 @@ int screenShotIPCam() {
 
     if (ret) {
         // Save the frame as a screenshot
-        std::string filename = "ip_camera_screenshot.jpg";
+        std::string filename = "./Rover_cam_dev/Screenshots/ip_camera_screenshot.jpg";
         cv::imwrite(filename, frame);
         std::cout << "Screenshot saved as " << filename << std::endl;
 
