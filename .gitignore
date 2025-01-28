@@ -1,0 +1,14 @@
+# IDE fiels
+/.vscode/
+
+/Screenshots/
+
+# Build artifacts
+/build/
+*.o
+*.a
+*.out
+
+# Logs
+*.log
+*.tmp

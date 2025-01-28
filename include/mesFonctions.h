@@ -6,5 +6,7 @@
 #include <unistd.h>
 #include <cstdlib>
 
+extern int compteur;
+
 int afficherImage(int argc, char** directory );
-int screenshotIPCam();
+int screenshotIPCam(int Compteur, const char* dir);

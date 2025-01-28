@@ -1,6 +1,6 @@
 #include "mesFonctions.h"
 
-int screenshotIPCam() {
+int screenshotIPCam(int Compteur, const char* dir) {
     // Replace with your IP camera's URL
     // The URL format will depend on the camera model and configuration
     std::string camera_url = "rtsp://rover:roverrover@192.168.144.25:554/1/h264major";
@@ -19,7 +19,7 @@ int screenshotIPCam() {
 
     if (ret) {
         // Save the frame as a screenshot
-        std::string filename = "~/screenshots/ip_camera_screenshot.jpg";
+        std::string filename = std::string(dir) + "/ip_camera_screenshot_" + std::to_string(compteur) + ".jpg";
         cv::imwrite(filename, frame);
         std::cout << "Screenshot saved as " << filename << std::endl;
 
