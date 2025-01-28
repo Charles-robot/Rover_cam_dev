@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
         std::cout << "Could not determine the user." << std::endl;
     }
 
-    const char* dir = "Screenshots";
+    const char* dir = "screenshots";
 
     // Check if directory is writable
     if (access(dir, W_OK) == 0) {
@@ -33,13 +33,13 @@ int main(int argc, char** argv) {
                 break;
 
             case 2:
-                screenShotIPCam();
+                screenshotIPCam();
                 break;
 
             case 3:
                 break;
             default:
-                std::cout << "Enter either 1, 2 or 3";
+                std::cout << "Enter either 1, 2 or 3" << std::endl;
                 break;
         }
 

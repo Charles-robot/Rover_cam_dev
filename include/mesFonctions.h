@@ -7,4 +7,4 @@
 #include <cstdlib>
 
 int afficherImage(int argc, char** directory );
-int screenShotIPCam();
+int screenshotIPCam();

@@ -19,15 +19,11 @@ int afficherImage(int argc, char** directory )
         return -1;
     }
 
-    cv::namedWindow("Deeznuts", cv::WINDOW_AUTOSIZE );
-    imshow("Deeznuts", image);
+    cv::namedWindow("TestAffichage", cv::WINDOW_AUTOSIZE );
+    imshow("TestAffichage", image);
  
     int k = cv::waitKey(0);
 
-    if( k == 's')
-    {
-        cv::imwrite("test.png", image);
-    }
  
     return 0;
 }
