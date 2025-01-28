@@ -5,7 +5,7 @@ int  compteur = 0;
 int main(int argc, char** argv) {
     int test = 0;
 
-    const char* env_dir = std::getenv("SCREENSHOT_DIR");
+    const char* env_dir = std::getenv("SCREENSHOT_DIR"); //Trouver pourquoi marche pas
     const char* dir = env_dir ? env_dir : "/home/anibal/Rover_cam_dev/Screenshots"; //changer "anibal" par le bon user 
 
      if (env_dir) {
